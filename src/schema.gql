@@ -1,0 +1,55 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type User {
+  id: Int!
+  firstName: String!
+  fatherName: String!
+  grandfatherName: String!
+  familyName: String!
+  localizedFirstName: String!
+  localizedFatherName: String!
+  localizedGrandfatherName: String!
+  localizedFamilyName: String!
+  nationalIdNumber: String!
+  nationalIdExpiryDate: String!
+  title: String!
+  nationalities: [String!]!
+  maritalStatusId: Int!
+  maritalStatusName: String!
+  dependants: Int!
+  passportNumber: String!
+  passportIssueDate: String!
+  passportExpiryDate: String!
+}
+
+type Query {
+  user(id: Float!): User!
+}
+
+type Mutation {
+  updateUser(updateUserInput: UpdateUserInput!): User!
+}
+
+input UpdateUserInput {
+  id: Int!
+  firstName: String!
+  fatherName: String!
+  grandfatherName: String!
+  familyName: String!
+  localizedFirstName: String!
+  localizedFatherName: String!
+  localizedGrandfatherName: String!
+  localizedFamilyName: String!
+  nationalIdNumber: String!
+  nationalIdExpiryDate: String!
+  title: String!
+  nationalities: [String!]!
+  maritalStatusId: Int!
+  maritalStatusName: String!
+  dependants: Int!
+  passportNumber: String!
+  passportIssueDate: String!
+  passportExpiryDate: String!
+}
