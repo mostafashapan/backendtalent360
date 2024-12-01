@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Enable CORS with your frontend URL
   app.enableCors({
-    origin: 'https://frontend-gilt-one-41.vercel.app/', // Replace with your frontend URL
+    origin:'https://frontend-gilt-one-41.vercel.app', // Replace with your frontend URL
     methods: 'GET,POST,PUT,DELETE',  // Allowed methods
     allowedHeaders: 'Content-Type, Authorization', // Allowed headers
   });
