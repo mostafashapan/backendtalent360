@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Enable CORS with your frontend URL
   app.enableCors({
-    origin: 'http://localhost:5173', // Replace with your frontend URL
+    origin: 'https://backendtalent360-production.up.railway.app/graphql', // Replace with your frontend URL
     methods: 'GET,POST,PUT,DELETE',  // Allowed methods
     allowedHeaders: 'Content-Type, Authorization', // Allowed headers
   });
